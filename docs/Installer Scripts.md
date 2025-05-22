@@ -1,5 +1,5 @@
 
-# 🧭 Netmig Installer Guide
+# Netmig Installer Guide
 
 This guide explains how to install and launch the **Netmig Network Automation Tool** using platform-specific installer scripts.
 
