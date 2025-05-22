@@ -38,7 +38,7 @@ call venv\Scripts\activate.bat
 
 :: Step 5: Download and extract repo
 echo [5/7] Downloading Netmig repo from GitHub...
-powershell -Command "Invoke-WebRequest -Uri 'https://wwwin-github.cisco.com/sanjeekr/netmig-app/archive/refs/heads/master.zip' -OutFile 'netmig.zip'"
+powershell -Command "Invoke-WebRequest -Uri 'https://wwwin-github.cisco.com/Netmig/core-app/archive/refs/heads/master.zip' -OutFile 'netmig.zip'"
 IF NOT EXIST netmig.zip (
     echo ERROR: Failed to download Netmig repo.
     goto :wait_and_exit

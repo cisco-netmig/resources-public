@@ -42,7 +42,7 @@ source venv/bin/activate
 
 # Step 5: Download and extract repo
 echo "[5/7] Downloading Netmig repo from GitHub..."
-curl -L -o netmig.zip https://wwwin-github.cisco.com/sanjeekr/netmig-app/archive/refs/heads/master.zip
+curl -L -o netmig.zip https://wwwin-github.cisco.com/Netmig/core-app/archive/refs/heads/master.zip
 if [ ! -f netmig.zip ]; then
     echo "ERROR: Failed to download Netmig repo."
     read -p "Press Enter to close this window..."
