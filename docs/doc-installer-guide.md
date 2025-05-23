@@ -5,15 +5,15 @@ This guide explains how to install and launch the **Netmig Network Automation To
 
 ---
 
-## 🪟 Windows Installation (`installer.bat`)
+## Windows Installation (`installer.bat`)
 
-### 📋 Requirements
+### Requirements
 - Windows 10 or later
 - Python 3.7 or higher (Ensure `python` is added to your PATH)
 - **Cisco VPN access** (to access internal GitHub Enterprise repositories)
 
-### 🚀 Steps
-1. ➡️ **[Download netmig-installer.bat](https://cisco-my.sharepoint.com/personal/sanjeekr_cisco_com/_layouts/15/download.aspx?UniqueId=be83f407-3d4a-495e-a988-b38b703125fb)**
+### Steps
+1. **[Download netmig-installer.bat](https://cisco-my.sharepoint.com/personal/sanjeekr_cisco_com/_layouts/15/download.aspx?UniqueId=be83f407-3d4a-495e-a988-b38b703125fb)**
 2. Ensure you're connected to the **Cisco VPN**.
 3. Double-click `installer.bat` or run it via **Command Prompt**:
    ```cmd
@@ -31,7 +31,7 @@ This guide explains how to install and launch the **Netmig Network Automation To
    - Install Python dependencies
    - Create launchers: `app-launcher.bat` and/or `admin-launcher.bat`
 
-### ▶️ Launch
+### Launch
 
 Run the launcher from inside the `Netmig` folder:
 
@@ -42,17 +42,17 @@ admin-launcher.bat     :: Launch Admin Tools
 
 ---
 
-## 🐧 Linux/macOS Installation (`installer.sh`)
+## Linux/macOS Installation (`installer.sh`)
 
-### 📋 Requirements
+### Requirements
 - Python 3.7+ (with `python3` and `pip`)
 - `curl`, `unzip`
 - Bash-compatible shell (default on macOS and most Linux distros)
 - **Cisco VPN access**
 
 
-### 🚀 Steps
-1. ➡️ **[Download netmig-installer.sh](https://cisco-my.sharepoint.com/personal/sanjeekr_cisco_com/_layouts/15/embed.aspx?UniqueId=e9dee339-4089-4f87-9fe4-939a3ea6584c)**
+### Steps
+1. **[Download netmig-installer.sh](https://cisco-my.sharepoint.com/personal/sanjeekr_cisco_com/_layouts/15/embed.aspx?UniqueId=e9dee339-4089-4f87-9fe4-939a3ea6584c)**
 2. Ensure you're connected to the **Cisco VPN**.
 3. Open a terminal and make the script executable:
 
@@ -73,7 +73,7 @@ admin-launcher.bat     :: Launch Admin Tools
    - Install dependencies via `pip`
    - Create launchers: `app-launcher.sh` and/or `admin-launcher.sh`
 
-### ▶️ Launch
+### Launch
 
 ```bash
 ./app-launcher.sh       # Launch Netmig App
@@ -82,7 +82,7 @@ admin-launcher.bat     :: Launch Admin Tools
 
 ---
 
-## 📁 Output Directory Structure (Example)
+## Output Directory Structure (Example)
 
 ```
 Netmig/
@@ -95,7 +95,7 @@ Netmig/
 
 ---
 
-## ❓ Troubleshooting
+## Troubleshooting
 
 - **Python not found**: Install Python 3.7+ and ensure it is in your PATH.
 - **VPN not connected**: Verify Cisco VPN is active; GitHub Enterprise URLs require VPN.
