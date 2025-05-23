@@ -13,7 +13,7 @@ This guide explains how to install and launch the **Netmig Network Automation To
 - **Cisco VPN access** (to access internal GitHub Enterprise repositories)
 
 ### Steps
-1. **[Download netmig-installer.bat](https://cisco-my.sharepoint.com/personal/sanjeekr_cisco_com/_layouts/15/download.aspx?UniqueId=be83f407-3d4a-495e-a988-b38b703125fb)**
+1. **[Download netmig-installer.bat](https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/installers/installer.bat)**
 2. Ensure you're connected to the **Cisco VPN**.
 3. Double-click `installer.bat` or run it via **Command Prompt**:
    ```cmd
@@ -52,7 +52,7 @@ admin-launcher.bat     :: Launch Admin Tools
 
 
 ### Steps
-1. **[Download netmig-installer.sh](https://cisco-my.sharepoint.com/personal/sanjeekr_cisco_com/_layouts/15/embed.aspx?UniqueId=e9dee339-4089-4f87-9fe4-939a3ea6584c)**
+1. **[Download netmig-installer.sh](https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/installers/installer.sh)**
 2. Ensure you're connected to the **Cisco VPN**.
 3. Open a terminal and make the script executable:
 
